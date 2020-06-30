@@ -16,7 +16,7 @@ function consultaUf(){
             $("#casos").html(response.cases);
             $("#mortes").html(response.deaths);
             $("#suspeitos").html(response.suspects);
-            $("#titulo_uf").html("Casos de Covid-19 no estado de: " + response.state);
+            $("#titulo_uf").html("Casos de Covid-19 no estado: " + response.state);
         }
     })
 }
